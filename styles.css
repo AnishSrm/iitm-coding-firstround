@@ -1,0 +1,93 @@
+ .firstpage-nav{
+    display: flex;  
+ }
+ 
+ .firstpage-nav div{
+    margin-top: 2rem;
+ }
+ 
+ .left a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.8rem;  
+    margin-left: 2rem;
+    
+}
+.left a:hover{
+    cursor:crosshair;
+   
+}
+
+  
+
+.endb{
+    background: black;
+    font-size: 0.8rem;
+    color: white;
+    border-radius: 5rem;
+    padding-block: 1rem;
+    padding-inline: 1.5rem;
+}
+.right span{
+    color:white;
+    background-color: black;
+    border-radius: 50%;
+    padding: 0.8rem;
+    margin-left: -0.3rem;
+}
+
+.right{
+    margin-left: 32rem;   
+}
+
+.right a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.3rem;
+    padding: 1rem;
+    font-weight: lighter;
+}
+marquee{
+    font-size: 15rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    width: 100%;
+    z-index: 1;
+    color: black;
+    
+}
+
+.firstpage-display{
+    display: flex;
+    justify-content: space-evenly; 
+    margin-top: 1rem; 
+           
+}
+
+
+.text{
+    width: 50%;   
+    
+}
+.videod{
+    width: 50%;
+    
+    
+}
+.text p{
+    font-size: 1.5rem;
+    padding: 2rem;
+    position: absolute;
+    bottom: 0;
+    margin-left: 8rem;  
+}
+.videod video{
+    height: 140%; 
+   width: 760px; 
+    object-fit: fill;
+    position: relative;
+    
+}
